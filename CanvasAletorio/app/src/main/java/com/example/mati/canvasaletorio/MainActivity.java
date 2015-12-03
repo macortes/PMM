@@ -13,13 +13,15 @@ import android.view.MenuItem;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-    private  BitmapDrawable miImagen;
-    private  BitmapDrawable miImagen2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new EjemploView(this));
+      //  setContentView(new EjemploView(this));
+        setContentView(R.layout.activity_main);
     }
+
+
 
 
 
