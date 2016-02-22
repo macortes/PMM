@@ -21,6 +21,30 @@
         <activity
             android:name=".Evento"
             android:label="@string/title_activity_evento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fecha"
+            android:label="@string/title_activity_fecha"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BasesDatos"
+            android:label="@string/title_activity_bases_datos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Insercion"
+            android:label="@string/title_activity_insercion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RecuperacionDatos"
+            android:label="@string/title_activity_recuperacion_datos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListaEventosUsuario"
+            android:label="@string/title_activity_lista_eventos_usuario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dibujo"
+            android:label="@string/title_activity_canvas"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
